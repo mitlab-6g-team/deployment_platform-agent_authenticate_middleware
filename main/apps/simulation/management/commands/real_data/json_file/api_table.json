@@ -1,0 +1,9 @@
+{
+    "jNpFPcUeZBSmwj3GpwI3BhD7wvsUbzZNioIj": "central_operation/AgentLifeManager/init",
+    "sZDBDibuUUFffhLbH4DIm9Sf1Fg8k9E7x5Is": "inference_operation/PositionManager/create",
+    "t568TxOJsCEU0FykfpSPYdIL4a5ZGuUGbZfI": "inference_operation/PositionManager/update",
+    "NajHgxDFvRmIK0wPvmUPUKo3xtPN0ToY5BI4": "inference_operation/PositionManager/delete",
+    "LnPFwiery3TBgcAqM488l3PhF2OWrNBaMLwW": "inference_operation/PositionManager/switch",
+    "yBhLn8JasGUWMWPzUkVmBX37BgzbXG46NdiC": "inference_operation/PositionManager/retrieve_system",
+    "Qc9kyadcBhB3iBPfmorH8iwJptkZkZlxCi6F": "entrypoint/AccountValidator/login"
+}

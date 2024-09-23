@@ -1,0 +1,13 @@
+{
+    "dRscZ8Il2d64zgEGSf2b06HAXhWsnMUNjYCI": "api/v1.1.1/central_connector/central_operation/AgentLifeManager/init",
+    "JkyCA47hYSnkJa10U7H27AFJUuwbUtM7dcck": "api/v1.1.1/inference_connector/inference_operation/PositionManager/create",
+    "0XVexiYKHrxqml3CKnbECrnJumQVKFYxA7Cl": "api/v1.1.1/inference_connector/inference_operation/PositionManager/update",
+    "EKWNGimJ2VwOeA1NHJ7wN6xuedCS1GRqFGNB": "api/v1.1.1/inference_connector/inference_operation/PositionManager/delete",
+    "eL5mMR3b91A3HdxBZsv0xHtnba867503AHDf": "api/v1.1.1/inference_connector/inference_operation/PositionManager/switch",
+    "Oel8zCg1zRqXRuU0B4FfPAm7s4VAe94OT0MO": "api/v1.1.1/inference_connector/inference_operation/PositionManager/retrieve_system",
+    "Quj79sTKGSuFf1ZXzfy6IPnx7LQmhUdsPhXA": "api/v1.1.1/authenticate_middleware/entrypoint/AccountValidator/login",
+    "EF1VeCsKexUHPKEAEs3JVnefWjpuaexSqcQN": "api/v1.1.1/metadata_mgt/abstract_metadata/ApplicationMetadataWriter/filter_by_agent",
+    "U7eW3owgLmk6Dk69aoSY7fAbz1aeSouYIiMW": "api/v1.1.1/metadata_mgt/abstract_metadata/PositionMetadataWriter/filter_by_application",
+    "NEMDpylDHy7SvyPrbSqDbR5EBrPukxhOT01P": "api/v1.1.1/metadata_mgt/file_metadata/ModelMetadataWriter/filter_by_application",
+    "gy6hYTdyGIkmelTMPVWPjzhGa4umxBA1dB3Z": "api/v1.1.1/metadata_mgt/file_metadata/ModelMetadataWriter/retrieve"
+}

@@ -1,0 +1,15 @@
+version: '3.8'
+
+networks:
+  shared_network:
+    external: true
+    
+services:
+  web1:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/resource_mgt_platform-topic_process
+    ports:
+      - "30301:30301"

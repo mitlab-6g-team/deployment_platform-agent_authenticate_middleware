@@ -1,0 +1,69 @@
+{
+    "central_connector": {
+      "module": "central_operation",
+      "actor": [
+        {
+          "AgentLifeManager":[
+            "init"
+          ]
+        }
+      ]
+    },
+    "inference_connector": {
+      "module": "inference_operation",
+      "actor": [
+        {
+          "PositionManager":[
+            "create",
+            "update",
+            "delete",
+            "switch",
+            "retrieve_system"
+          ]
+        }
+      ]
+    },
+    "authenticate_middleware": {
+      "module": "entrypoint",
+      "api_prefix": "api",
+      "version": "v1.1.1",
+      "actor": [
+        {
+          "AccountValidator":[
+            "login"
+          ]
+        }
+      ]
+    },
+    "metadata_mgt":[
+      {
+        "module": "abstract_metadata",
+        "api_prefix": "api",
+        "version": "v1.1.1",
+        "actor": [
+          {
+            "ApplicationMetadataWriter": [
+              "filter_by_agent"
+            ],
+            "PositionMetadataWriter":[
+              "filter_by_application"
+            ]
+          }
+        ]
+      },
+      {
+        "module": "file_metadata",
+        "api_prefix": "api",
+        "version": "v1.1.1",
+        "actor": [
+          {
+            "ModelMetadataWriter": [
+              "filter_by_application",
+              "retrieve"
+            ]
+          }
+        ]
+      }
+    ]
+
+}

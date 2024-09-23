@@ -1,0 +1,10 @@
+# env
+.env
+.env.common
+__pycache__/
+*.pyc
+Pipfile
+.venv
+nohup.out
+logs/
+db.sqlite3
